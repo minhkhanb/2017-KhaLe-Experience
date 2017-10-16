@@ -22,7 +22,11 @@ namespace ContosoUniversity.Controllers
         // GET: Students
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Students.ToListAsync());
+            if(User.Identity.IsAuthenticated)
+            {
+                return View(await _context.Students.ToListAsync());
+            }
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: Students/Details/5
