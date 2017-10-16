@@ -1,0 +1,11 @@
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\ContosoUniversity\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.deps.json
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\ContosoUniversity\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.runtimeconfig.json
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\ContosoUniversity\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.runtimeconfig.dev.json
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\ContosoUniversity\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.dll
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\ContosoUniversity\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.pdb
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.csprojResolveAssemblyReference.cache
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.csproj.CoreCompileInputs.cache
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.AssemblyInfoInputs.cache
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.AssemblyInfo.cs
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.dll
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.pdb

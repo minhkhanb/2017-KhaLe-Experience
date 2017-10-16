@@ -5,3 +5,9 @@ D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\AspNetCoreStart\AspNetCoreSt
 D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\AspNetCoreStart\AspNetCoreStart\obj\Debug\netcoreapp2.0\AspNetCoreStart.csproj.CoreCompileInputs.cache
 D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\AspNetCoreStart\AspNetCoreStart\obj\Debug\netcoreapp2.0\AspNetCoreStart.AssemblyInfoInputs.cache
 D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\AspNetCoreStart\AspNetCoreStart\obj\Debug\netcoreapp2.0\AspNetCoreStart.AssemblyInfo.cs
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\AspNetCoreStart\AspNetCoreStart\bin\Debug\netcoreapp2.0\AspNetCoreStart.pdb
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\AspNetCoreStart\AspNetCoreStart\obj\Debug\netcoreapp2.0\AspNetCoreStart.csprojResolveAssemblyReference.cache
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\AspNetCoreStart\AspNetCoreStart\obj\Debug\netcoreapp2.0\AspNetCoreStart.dll
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\AspNetCoreStart\AspNetCoreStart\obj\Debug\netcoreapp2.0\AspNetCoreStart.pdb
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\AspNetCoreStart\AspNetCoreStart\bin\Debug\netcoreapp2.0\ExceptionHandling.dll
+D:\KhaLe\GitHub\2017-KhaLe-Experience\AspNetCore2.0\AspNetCoreStart\AspNetCoreStart\bin\Debug\netcoreapp2.0\ExceptionHandling.pdb

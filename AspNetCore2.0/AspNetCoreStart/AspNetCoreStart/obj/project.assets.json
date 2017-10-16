@@ -4746,6 +4746,16 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "ExceptionHandling/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ExceptionHandling.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExceptionHandling.dll": {}
+        }
       }
     }
   },
@@ -12524,10 +12534,16 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "ExceptionHandling/1.0.0": {
+      "type": "project",
+      "path": "../ExceptionHandling/ExceptionHandling.csproj",
+      "msbuildProject": "../ExceptionHandling/ExceptionHandling.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "ExceptionHandling >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.AspNetCore.StaticFiles >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
@@ -12567,7 +12583,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\KhaLe\\GitHub\\2017-KhaLe-Experience\\AspNetCore2.0\\AspNetCoreStart\\ExceptionHandling\\ExceptionHandling.csproj": {
+              "projectPath": "D:\\KhaLe\\GitHub\\2017-KhaLe-Experience\\AspNetCore2.0\\AspNetCoreStart\\ExceptionHandling\\ExceptionHandling.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
