@@ -11,31 +11,37 @@ namespace ContosoUniversity.Controllers
 {
     public class HomeController : Controller
     {
-        //[HttpGet]
-        public IActionResult IndexWithForm()
+        [HttpGet]
+        public IActionResult Index()
         {
             return View("IndexWithForm");
         }
-        //[HttpPost]
-        public IActionResult Index([FromQuery] Contact contact)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Index(IndexWithFormViewModel responseVM)
         {
-            //Contact contact = new Contact
-            //{
-            //    Id = 1,
-            //    FirstName = "Le",
-            //    LastName = "Kha"
-            //};
-            Customer customer = new Customer
+            if (ModelState.IsValid)
             {
-                Id = 2,
-                CustomerName = "The Company"
-            };
-            HomeIndexViewModel vm = new HomeIndexViewModel
-            {
-                Contact = contact,
-                Customer = customer
-            };
-            return View(vm);
+                Contact contact = new Contact
+                {
+                    Id = (int)responseVM.Id,
+                    FirstName = responseVM.FirstName,
+                    LastName = responseVM.LastName,
+                    PhoneNumber = responseVM.PhoneNumber
+                };
+                Customer customer = new Customer
+                {
+                    Id = 2,
+                    CustomerName = "The Company"
+                };
+                HomeIndexViewModel vm = new HomeIndexViewModel
+                {
+                    Contact = contact,
+                    Customer = customer
+                };
+                return View(vm);
+            }
+            return View("IndexWithForm", responseVM);
         }
 
 

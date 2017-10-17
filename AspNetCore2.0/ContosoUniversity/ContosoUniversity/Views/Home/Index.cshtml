@@ -1,6 +1,3 @@
-﻿@model ContosoUniversity.ViewModels.HomeIndexViewModel
+﻿
 <h2>Home</h2>
-<ul>
-    <li>Hi @Model.Contact.FirstName @Model.Contact.LastName</li>
-    <li>Your id: @Model.Contact.Id</li>
-</ul>
+@Html.Partial("_ContactInfo")

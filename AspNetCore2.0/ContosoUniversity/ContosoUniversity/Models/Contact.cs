@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace ContosoUniversity.Models
 {
@@ -13,7 +9,8 @@ namespace ContosoUniversity.Models
         [MinLength(2)]
         [MaxLength(50)]
         public string FirstName { get; set; }
-        [MinLength(2), MaxLength(50)]
+        [MinLength(2)]
+        [MaxLength(50)]
         public string LastName { get; set; }
         [Phone]
         public string PhoneNumber { get; set; }
