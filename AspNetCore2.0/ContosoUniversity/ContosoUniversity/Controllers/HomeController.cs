@@ -43,7 +43,33 @@ namespace ContosoUniversity.Controllers
             }
             return View("IndexWithForm", responseVM);
         }
+        public IActionResult ContactList()
+        {
+            List<HomeIndexViewModel> contactList = new List<HomeIndexViewModel>();
+            for (int i = 0; i < 4; i++)
+            {
+                Contact newContact = new Contact
+                {
+                    Id = i,
+                    FirstName = "First" + i.ToString(),
+                    LastName = "Last" + i.ToString(),
+                    PhoneNumber = "01679591500"
+                };
+                Customer newCustomer = new Customer
+                {
+                    Id = i,
+                    CustomerName = "Customer " + i.ToString()
+                };
+                HomeIndexViewModel vm = new HomeIndexViewModel
+                {
+                    Contact = newContact,
+                    Customer = newCustomer
+                };
 
+                contactList.Add(vm);
+            }
+            return View(contactList);
+        }
 
     }
 }
